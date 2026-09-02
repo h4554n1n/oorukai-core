@@ -1,0 +1,21 @@
+name: oorukai_core
+description: "Shared Flutter code for Oorukai's games (Squeeze, Vertex, Santa Drop)."
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/branding/
