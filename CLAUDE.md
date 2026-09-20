@@ -2,8 +2,11 @@
 
 ## What this is
 Shared Flutter code for Oorukai's games — Squeeze, Vertex, Santa Drop.
-Consumed as a `path:` dependency (see `pubspec.yaml` in each game), not
-published to pub.dev.
+Consumed as a `git:` dependency (see `pubspec.yaml` in each game), not
+published to pub.dev. `path: ../oorukai-core` is the local-editing
+override only, and is swapped back before the game is committed. This
+repo is public so the `git:` form needs no credentials — a CI runner
+holds a token for the game's own repo and nothing else.
 
 ## Project commands
 - Test: `flutter test`
